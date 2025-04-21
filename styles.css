@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    height: 20%;
+    height: 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +29,7 @@ body {
   
   img {
     width: 80px;
+
   }
   main{
 display: flex;
@@ -43,13 +44,14 @@ justify-content: space-around;
   }
 
 section{
-    width: 40%;
+  width: 45%;
+  margin: 80px;        
 }
 
 .pictures{
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
     gap: 10px;
 
 }
