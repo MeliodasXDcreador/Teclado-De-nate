@@ -20,17 +20,13 @@ restar.addEventListener("click", () => {
         numero.textContent = valor;
     }
 });
-document.addEventListener('DOMContentLoaded', () => {
-    // Selecciona todas las imágenes de la sección .pictures
+document.addEventListener('DOMContentLoaded', () => 
     const picturesSection = document.querySelector('.pictures');
     const images = picturesSection.querySelectorAll('img');
     const mainImage = picturesSection.querySelector('.img1');
-
     images.forEach(img => {
         img.addEventListener('click', function() {
-            if (img === mainImage) return; // No hacer nada si es la principal
-
-            // Intercambiar src y alt entre la imagen clickeada y la principal
+            if (img === mainImage) return;
             const tempSrc = mainImage.src;
             const tempAlt = mainImage.alt;
 
